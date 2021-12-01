@@ -7,10 +7,10 @@ int main(){
   int ris= verifica(a);
   
   if(ris){
-    cout<<convert(a)<<endl;
+    cout << convert(a) << endl;
   }
   else{
-    cout<<"errore";
+    cout << "errore";
   }
   return 0;
 }
