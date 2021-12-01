@@ -12,7 +12,7 @@ char convert(char a){
         a=a+32;
         return a;
     }else if (a>=97 && a<=122){
-        a=a+32;
+        a=a-32;
         return a;
     }
 }
